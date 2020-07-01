@@ -36,5 +36,5 @@ class Testfile():
         driver.quit()
         print("Test Completed")
 
-
+#To run on terminal, pytest -v, or pytest#
 
