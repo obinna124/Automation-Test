@@ -26,7 +26,6 @@ class LoginTest(unittest.TestCase):
         time.sleep(1)
         self.driver.find_element_by_link_text("Logout").click()
         time.sleep(1)
-
     def test_logout(self): #Test function#
         self.driver.close()
         self.driver.quit()
@@ -35,5 +34,5 @@ class LoginTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-#To Run on Terminal = python -m login#
+#To Run on Terminal = python -m Login#
 
