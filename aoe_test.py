@@ -102,7 +102,7 @@ class Testfile():
     def test_continue_click(self):
         driver.find_element_by_xpath("//*[@data-qa='header-navigation-item-company']").click()
         time.sleep(1)
-        driver.find_element_by_xpath(oe"//*[@data-qa='header-navigation-item-career']").click()
+        driver.find_element_by_xpath("//*[@data-qa='header-navigation-item-career']").click()
         time.sleep(1)
 
     #Displays the contact page, scrolls to the end of page and back to top of page#
